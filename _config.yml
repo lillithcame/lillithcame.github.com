@@ -1,7 +1,7 @@
 # Site Settings
 
 # Google Analytics Property ID
-# ganalytics  : UA-00000000-0
+ganalytics  : UA-00000000-0
 
 embedly:
   api_key: e49e32f4700c11e193c14040d3dc5c07
@@ -9,7 +9,6 @@ embedly:
 # Jekyll Configuration
 
 source: source
-layouts: source/_layouts
 
 markdown: kramdown
 kramdown:

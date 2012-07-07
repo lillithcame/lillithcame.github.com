@@ -28,7 +28,7 @@ module Jekyll
     def convert(content)
       setup
       begin
-        p = Less::Parser.new :paths => [File.join(@source, "/css")]
+        p = Less::Parser.new :paths => [File.join(@source, "assets/css"), File.join(@source, "assets/vendor/css")]
         c = p.parse(content)
         puts "."
         puts c
