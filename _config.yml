@@ -1,0 +1,25 @@
+# Site Settings
+
+# Google Analytics Property ID
+# ganalytics  : UA-00000000-0
+
+embedly:
+  api_key: e49e32f4700c11e193c14040d3dc5c07
+
+# Jekyll Configuration
+
+source: source
+layouts: source/_layouts
+
+markdown: kramdown
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+# Jekyll Preview Configuration
+
+baseurl: /
+server_port: 4500

@@ -1,0 +1,60 @@
+GIT
+  remote: https://github.com/mojombo/jekyll.git
+  revision: fa8400ab61cb8df176f9fb2ec52d85f93c7418a7
+  specs:
+    jekyll (0.11.2)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.13.4)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+      pygments.rb (~> 0.2.12)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.2.8)
+    blankslate (2.1.2.4)
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.3.3)
+    commonjs (0.2.6)
+    directory_watcher (1.4.1)
+    domainatrix (0.0.10)
+      addressable
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    fast-stemmer (1.0.1)
+    ffi (1.0.11)
+    fssm (0.2.9)
+    kramdown (0.13.7)
+    less (2.1.0)
+      commonjs (~> 0.2.0)
+      therubyracer (~> 0.10.0)
+    libv8 (3.3.10.4)
+    liquid (2.3.0)
+    maruku (0.6.0)
+      syntax (>= 1.0.0)
+    multi_json (1.3.6)
+    pygments.rb (0.2.13)
+      rubypython (~> 0.5.3)
+    rubypython (0.5.3)
+      blankslate (>= 2.1.2.3)
+      ffi (~> 1.0.7)
+    syntax (1.0.0)
+    therubyracer (0.10.1)
+      libv8 (~> 3.3.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script
+  domainatrix
+  fssm
+  jekyll!
+  less
+  therubyracer
